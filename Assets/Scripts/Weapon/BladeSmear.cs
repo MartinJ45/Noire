@@ -12,6 +12,7 @@ public class BladeSmear : MonoBehaviour
     [SerializeField] private float smearDuration = .25f;
     [SerializeField] private float fadeThreshold = .12f;
 
+    private float x;
     private Mesh mesh;
     private LinkedList<Tuple<Vector3, Vector3>> transformsBuffer;
     private float smearDurationCounter;
